@@ -13,7 +13,7 @@ df['total'] = df['quantity'] * df['price']
 print("\nWith totals:")
 print(df)
 
-# Create output directory
+# Create HEllo output directory
 os.makedirs('output', exist_ok=True)
 
 # Save as different formats
@@ -30,3 +30,4 @@ print("\nFiles saved:")
 print("- output/sales_data.json")
 print("- output/sales_data.xlsx") 
 print("- output/sales_with_totals.csv")
+print("\nAnalysis complete!")
